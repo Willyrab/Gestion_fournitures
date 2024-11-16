@@ -1,0 +1,55 @@
+/* Conteneur de titre */
+.title-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.title-container hr {
+    border: none;
+    border-top: 4px solid #f6a623; /* Couleur personnalisée pour la ligne sous le titre */
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Style pour le bouton d'approvisionnement */
+.btn-outline-success {
+    border: 2px solid #28a745;
+    color: #28a745;
+    background-color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+.btn-outline-success:hover .fa-cart-arrow-down {
+    color: white; /* L'icône devient blanche au survol */
+}
+.fa-cart-arrow-down {
+    color: #28a745;
+}
+
+
+/* Survol des lignes */
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Centrage des actions */
+td form {
+    display: flex;
+    justify-content: center;
+}
+

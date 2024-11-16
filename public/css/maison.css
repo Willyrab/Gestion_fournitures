@@ -1,0 +1,89 @@
+.vps-card {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+
+.vps-card-header {
+    background: #f0f8ff;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vps-card-body {
+    padding: 15px;
+    color: #444;
+}
+
+.vps-card-title {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #0056b3; /* Titre avec une couleur accentuée */
+}
+
+.vps-card-text ul {
+    padding: 0;
+    list-style: none;
+}
+
+.vps-card-text li {
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.vps-card-text li:last-child {
+    border-bottom: none;
+}
+
+.vps-card-footer {
+    background: #f7f7f7;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.vps-form-check-input {
+    margin-right: 5px;
+}
+
+.vps-form-check-label {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.vps-form-check {
+    display: block;
+    padding: 10px;
+}
+
+
+/* Stilurile pentru containerul de defilare */
+
+/* Style pour le conteneur de défilement horizontal */
+.scroll-horizontal {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    -webkit-overflow-scrolling: touch; /* Permet un meilleur défilement tactile sur iOS */
+}
+
+.vps-card {
+    flex: 0 0 auto; /* Empêche les cartes de se rétrécir */
+    width: 300px; /* Largeur fixe pour toutes les cartes */
+    margin-right: 15px; /* Espace entre les cartes */
+}
+
+/* Assurez-vous que les éléments à l'intérieur des cartes ne débordent pas */
+.vps-card-body, .vps-card-footer, .vps-card-header {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

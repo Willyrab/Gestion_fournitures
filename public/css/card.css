@@ -1,0 +1,35 @@
+.card-header {
+    background-color: #343a40;
+    padding: 20px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.card-header img {
+    border: 3px solid white;
+}
+
+.card-header h5 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-body {
+    font-size: 14px;
+}
+
+.list-group-item {
+    font-size: 14px;
+}
+.text-muted{
+    color: white!important;
+    font-size: medium;
+}
+.bg-primary{
+    color: white!important;
+}
+.bg-info{
+    background-color: rgb(199, 151, 68)!important;
+    color: white;
+}

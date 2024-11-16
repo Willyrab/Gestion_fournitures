@@ -1,0 +1,111 @@
+.btn-reset {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-left: 5px;
+}
+
+#consommationChart {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto; 
+}
+
+/* CSS pour styliser le titre */
+.title-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title-container h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background: #f8f9fa;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.title-container hr {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border: 0;
+    border-top: 3px solid #343a40;
+    z-index: 0;
+}
+
+/* pour recherch simplement */
+.search-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+.search-container strong.text-muted {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: block;
+    color: #6c757d;
+}
+.display-4 {
+    font-size: 1.8rem;
+    font-weight: inherit;
+    margin-left: 20px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+/* Espacement spécifique pour les sections */
+h1.information-title {
+    margin-top: 40px; /* Espacement au-dessus du titre pour séparer des autres éléments */
+    text-align: left;
+    font-size: 2rem; 
+    font-weight: bold; /* Texte en gras */
+
+
+}
+
+h1.graph-title {
+    margin-top: 50px; /* Un peu plus d'espace pour la section graphique */
+   
+
+    font-size: 2rem; 
+     
+    font-weight: bold; /* Texte en gras */
+
+}
+
+h1.graph-title::after{
+    content: "";
+    display: block;
+    width: 70px; /* Largeur de la ligne */
+    height: 3px; /* Hauteur de la ligne */
+    background-color: #f6a623; /* Couleur de la bordure (jaune/orange pour correspondre aux boutons) */
+    margin-top: 5px; /* Espacement entre le titre et la ligne */
+  /* Espacement supplémentaire sous la ligne */
+  
+}
+h1.information-title::after{
+    content: "";
+    display: block;
+    width: 60px; /* Largeur de la ligne */
+    height: 3px; /* Hauteur de la ligne */
+    background-color: #f6a623; /* Couleur de la bordure (jaune/orange pour correspondre aux boutons) */
+    margin-top: 5px; /* Espacement entre le titre et la ligne */
+  /* Espacement supplémentaire sous la ligne */
+
+  margin-bottom: 20px; /* Espacement supplémentaire sous la ligne */
+}

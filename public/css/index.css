@@ -1,0 +1,27 @@
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.intro-text {
+    max-width: 50%;
+}
+.intro-image {
+    max-width: 50%;
+}
+.intro-image img {
+    width: 100%;
+    height: auto;
+}
+.intro-title {
+    font-size: 2.5em;
+    color: #f8b739;
+}
+.intro-subtitle {
+    font-size: 1.5em;
+    color: #f8b739;
+}
+.intro-paragraph {
+    margin-top: 20px;
+}

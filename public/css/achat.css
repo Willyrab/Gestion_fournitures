@@ -1,0 +1,147 @@
+/* Style pour le modal */
+#demandeAchatModal .modal-dialog {
+    max-width: 800px; /* Ajustement de la largeur du modal */
+  }
+  
+  #demandeAchatModal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+  
+  #demandeAchatModal .modal-title {
+    font-size: 18px;
+  }
+  
+  #demandeAchatModal .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  #demandeAchatModal .form-group label {
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  #demandeAchatModal input[type="text"],
+  #demandeAchatModal input[type="number"],
+  #demandeAchatModal textarea {
+    flex: 1;
+  }
+  
+  #demandeAchatModal input[type="text"],
+  #demandeAchatModal input[type="number"],
+  #demandeAchatModal textarea {
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  #demandeAchatModal input[readonly] {
+    background-color: #e9ecef;
+  }
+  
+  #demandeAchatModal textarea {
+    resize: none;
+  }
+  
+  /* Style pour la table */
+  #demandeAchatModal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  #demandeAchatModal table th,
+  #demandeAchatModal table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+  }
+  
+
+  
+  #demandeAchatModal tbody tr td {
+    height: 40px;
+  }
+  
+  /* Bouton de validation */
+  #demandeAchatModal .btn-primary {
+    display: block;
+    width: 150px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+  }
+  
+  /* Style du formulaire */
+.form-demande-achat {
+  background-color: #2F4F4F; /* Couleur verte foncée */
+  border-radius: 5px;
+  position: relative;
+  padding: 20px;
+}
+
+/* En-tête avec les boutons */
+.header-actions {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.btn-close, .btn-add {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.btn-close {
+  color: #ff6347; /* Rouge pour le bouton x */
+}
+
+.btn-add {
+  color: #FFA500; /* Orange pour le bouton + */
+}
+
+/* Champs d'entrée */
+.form-demande-achat .form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+/* Bouton envoyer */
+.btn-warning {
+  background-color: #F0AD4E; /* Jaune comme sur l'image */
+  border-color: #F0AD4E;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-warning:hover {
+  background-color: #EC971F;
+  border-color: #D58512;
+}
+
+/* Alignement des champs article et quantité côte à côte */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .col-md-6 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row .col-md-6:last-child {
+  margin-right: 0;
+}
+
+/* Centrer le bouton d'envoi */
+.text-center {
+  text-align: center;
+}

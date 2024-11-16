@@ -1,0 +1,79 @@
+
+.top-bar {
+    background-color: #f7f1e3;
+    padding: 10px 0;
+}
+
+.top-bar .info-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-bar i {
+    color: #FF7F27;
+    margin-right: 8px;
+}
+
+/* Header and navigation */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF7F27;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    /* Make sure the text is white and visible */
+    font-size: 14px;
+    /* Reduce font size for better readability */
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF7F27 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FF7F27 !important;
+}
+
+.navbar-brand img {
+    max-height: 70px;
+}
+
+/* Dropdown menu with scroll */
+.dropdown-menu {
+    max-height: 300px;
+    /* Set a max-height for the dropdown */
+    overflow-y: auto;
+    /* Enable vertical scroll if content exceeds max-height */
+}
+
+/* Style for the scrollbar */
+.dropdown-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #EB9D06;
+    /* Highlight background color */
+    color: #fff;
+    /* Text color on hover */
+}

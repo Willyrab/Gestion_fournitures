@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: relative; /* Permet d'ajouter l'image en fond */
+    z-index: 1;
+}
+/* Ajout du background image avec opacité */
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/hita_logo.jpg'); /* Votre image ici */
+    background-size: 70%; /* Ajuste la taille de l'image */
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.1; /* Réglez l'opacité ici (10%) */
+    z-index: -1; /* Assurez-vous que l'image soit derrière le texte */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header img {
+    max-width: 100px;
+}
+.company-name {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 20px;
+}
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: flex-start;
+}
+.company-info-left {
+    font-size: 14px;
+    line-height: 1.8;
+}
+.company-info-left strong {
+    font-weight: bold;
+}
+.company-info-right {
+    font-size: 14px;
+    text-align: right;
+}
+.company-info-right strong {
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: rgb(221, 221, 221);
+}
+.footer {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer strong {
+    font-weight: bold;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}

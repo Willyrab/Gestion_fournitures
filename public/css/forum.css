@@ -1,0 +1,81 @@
+
+body {
+    background-color: #fbfaf2; /* Dark background to match the logo */
+    color: #ffffff; /* Light text color for better contrast */
+}
+
+.card {
+    background-color: #333; /* Dark card background for a sleek look */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+    background-color: transparent;
+    text-align: center; /* Center align the header content */
+    border-bottom: none;
+}
+
+.input-group-text {
+    background-color: #EB9D06; /* Orange color from the logo */
+    color: white;
+    border: none;
+}
+
+.form-control {
+    background-color: #444; /* Dark input background */
+    color: #ffffff; /* Light text color */
+    border: none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 2px #E5C568; /* Focus ring in orange */
+}
+
+.btn-primary {
+    
+    background-color: #EB9D06; /* Orange color for the primary button */
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #cc8804; /* Slightly darker orange for hover effect */
+}
+
+.btn-link {
+    color: #E5C568; /* Link color in orange */
+}
+
+.btn-link:hover {
+    color: #f8b739; /* Darker orange on hover */
+    text-decoration: none;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add bottom margin */
+    width: 100px; /* Adjust the size of the logo */
+    border-radius: 145px;
+}
+
+.alert {
+    border-radius: 5px;
+}
+a{
+    text-decoration:none;
+    color: #f8b739;
+}
+label{
+    padding: 5px;
+}
+.pull,
+.pull-right {
+   
+    padding: 10px;
+}
+.pull-right{
+    float: right;
+}
